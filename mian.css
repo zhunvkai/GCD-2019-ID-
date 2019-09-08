@@ -1,0 +1,83 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+body {
+    background: 
+      url('背景.jpg')  no-repeat center center;
+      background-size: 120vw auto;
+      font-family: 'Oswald', sans-serif;
+  }
+
+h1 {
+    font-size: 22px;
+    margin: 0;
+    justify-content: center;
+    
+  }
+  
+  .red {
+    color: red;
+  }
+
+.root {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    background-color: #efefef;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .card-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card-header > img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+   }
+
+  .card-content {
+    display: flex;
+  }
+  
+  .card-img {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+  }
+  .card-img > img{
+      width: 100%;
+      border-radius: 60% 
+  }
+
+  .card-text > p{
+      margin: 0 0 10px 0;
+    
+  }
+  .card-text {
+      width: 60%;
+      margin-top: 20px;
+      padding-left: 20px;
+  }
+
+  .author {
+    color:white;
+  }
